@@ -34,16 +34,16 @@
           </div>
           <ul class="menu d-flex">
             <li class="menu__item">
-              <a href="#" class="menu__link">Знаете ли вы</a>
+              <a href="#stat" class="menu__link">Знаете ли вы</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Зачем</a>
+              <a href="#skills" class="menu__link">Зачем</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Кому</a>
+              <a href="#hero" class="menu__link">Кому</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Регистрация</a>
+              <a href="#order" class="menu__link">Регистрация</a>
             </li>
           </ul>
           <div class="phone">
@@ -174,7 +174,54 @@
           </div>
         </div>
       </section>
+      <section class="order" id="order">
+        <div class="container d-flex space-between">
+          <div class="order__about">
+            <div class="order__suptitle">
+              <i class="fa fa-graduation-cap"></i>
+              Онлайн-мастер-класс
+            </div>
+            <h2 class="order__title">Не потеряйте уникальную возможность. Бронируйте участие уже сегодня!</h2>
+            <p class="order__subtitle">
+              <i class="fa fa-clock"></i>
+              <span>9 апреля в 18:00</span>
+              <i class="fa fa-users"></i>
+              <span>Всего 40 мест</span>
+            </p>
+          </div>
+          <form action="#" class="form">
+            <h3 class="form__title">Забронировать участие</h3>
+            <p class="form__desc">Чтобы стать профессионалом в HTML и CSS, а также делать WOW</p>
+            <div class="form__box">
+              <input type="text" name="name" placeholder="Введите имя" required class="form__input" />
+              <input type="email" name="email" placeholder="Введите E-mail" required class="form__input" />
+              <input type="tel" name="phone" placeholder="Введите телефон" required class="form__input" />
+              <button type="submit" class="form__btn">
+                Оставить заявку
+              </button>
+            </div>
+            <p class="form__message">Ваши данные под защитой</p>
+          </form>
+        </div>
+      </section>
     </main>
+    <footer class="footer" id="footer">
+      <div class="container d-flex align-items-centr">
+        <div class="logo">
+          <a href="#" title="Школа верстки FSDev">
+            <span class="logo__icon">
+              <i class="fa fa-plug"></i>
+            </span>
+            <p class="logo__text">Моя школа <span>верстки</span></p>
+          </a>
+        </div>
+        <p class="copy">Все права защищены</p>
+        <div class="phone">
+          <i class="fa fa-phone"></i>
+          <a href="tel:+7(495)56756412" class="phone__link">+7 (495) 567-564-12</a>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="https://kit.fontawesome.com/39c3f5596c.js" crossorigin="anonymous"></script>
 </html>

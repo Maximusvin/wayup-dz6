@@ -485,3 +485,48 @@ input:-ms-input-placeholder {
   margin-bottom: 18px;
   display: block;
 }
+
+.order {
+  padding: 100px 0 110px;
+  background-image: url(../img/bg-order.jpg);
+  text-align: center;
+}
+
+.order .container {
+  padding: 0 70px;
+}
+
+.order__about {
+  color: #fff;
+  width: 567px;
+  padding-top: 107px;
+}
+
+.order__suptitle {
+  font-size: 16px;
+  margin-bottom: 34px;
+  letter-spacing: 0.02em;
+}
+
+.order__title {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 32px;
+  letter-spacing: 0.02em;
+}
+
+.order__subtitle span {
+  margin-right: 7px;
+}
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer .logo {
+  margin-right: 158px;
+}
+
+.copy {
+  font-size: 12px;
+}
