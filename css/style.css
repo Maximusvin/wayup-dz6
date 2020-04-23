@@ -163,8 +163,7 @@ body {
 }
 
 .offer {
-  background: #f0f7f7 url('../img/bg-offer.jpg') center top no-repeat;
-  background-size: cover;
+  background: #f0f7f7 url('../img/bg-offer.jpg') no-repeat top center / cover;
 }
 
 .offer .container {
@@ -404,7 +403,7 @@ input:-ms-input-placeholder {
 
 .skills {
   padding: 92px 0;
-  background: #f0f8f8 url(../img/bg-benefits.jpg);
+  background: #f0f8f8 url(../img/bg-benefits.jpg) no-repeat top center / cover;
 }
 
 .skills__title {
@@ -488,7 +487,7 @@ input:-ms-input-placeholder {
 
 .order {
   padding: 100px 0 110px;
-  background-image: url(../img/bg-order.jpg);
+  background: url(../img/bg-order.jpg) no-repeat top center / cover;
   text-align: center;
 }
 
