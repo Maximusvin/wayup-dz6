@@ -148,6 +148,7 @@ body {
 .menu__link {
   padding: 0 21px 0 19px;
   display: block;
+  transition: all 0.4s ease;
 }
 
 .menu__item:hover .menu__link {
@@ -171,7 +172,7 @@ body {
 }
 
 .about {
-  width: 520px;
+  width: 530px;
   text-align: center;
   padding-top: 107px;
 }
@@ -179,6 +180,7 @@ body {
 .about__suptitle {
   font-size: 16px;
   margin-bottom: 26px;
+  font-weight: 300;
   letter-spacing: 0.02em;
 }
 
@@ -455,7 +457,7 @@ input:-ms-input-placeholder {
 
 .hero__card {
   width: 348px;
-  height: 236px;
+  min-height: 236px;
   border-radius: 5px;
   box-shadow: 13px 13px 98px rgba(0, 0, 0, 0.24);
   padding: 68px 45px;
@@ -503,6 +505,7 @@ input:-ms-input-placeholder {
 
 .order__suptitle {
   font-size: 16px;
+  font-weight: 300;
   margin-bottom: 34px;
   letter-spacing: 0.02em;
 }
@@ -516,6 +519,7 @@ input:-ms-input-placeholder {
 
 .order__subtitle span {
   margin-right: 7px;
+  font-size: 16px;
 }
 
 .footer {

@@ -17,21 +17,19 @@
     <meta property="og:site_name" content="FSDev - школа верстки" />
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap&subset=cyrillic" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header" id="header">
       <nav class="main-nav">
         <div class="container d-flex align-items-centr">
-          <div class="logo">
-            <a href="#" title="Школа верстки FSDev">
-              <span class="logo__icon">
-                <i class="fa fa-plug"></i>
-              </span>
-              <p class="logo__text">Моя школа <span>верстки</span></p>
-            </a>
-          </div>
+          <a href="#" class="logo" title="Школа верстки FSDev">
+            <span class="logo__icon">
+              <i class="fa fa-plug"></i>
+            </span>
+            <p class="logo__text">Моя школа <span>верстки</span></p>
+          </a>
           <ul class="menu d-flex">
             <li class="menu__item">
               <a href="#stat" class="menu__link">Знаете ли вы</a>
@@ -46,10 +44,10 @@
               <a href="#order" class="menu__link">Регистрация</a>
             </li>
           </ul>
-          <div class="phone">
+          <a href="tel:+7(495)56756412" class="phone">
             <i class="fa fa-phone"></i>
-            <a href="tel:+7(495)56756412" class="phone__link">+7 (495) 567-564-12</a>
-          </div>
+            +7 (495) 567-564-12
+          </a>
         </div>
       </nav>
       <div class="offer" id="offer">
@@ -129,24 +127,24 @@
             <li class="skills__item">
               <span class="skills__num">1</span>
               <div class="skills__body">
-                <p class="skills__head">Зарабатывать тысячи долларов</p>
+                <h3 class="skills__head">Зарабатывать тысячи долларов</h3>
                 <p class="skills__text">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
               </div>
             </li>
             <li class="skills__item">
               <span class="skills__num">2</span>
               <div class="skills__body">
-                <p class="skills__head">
+                <h3 class="skills__head">
                   Работать<br />
                   в путешествиях
-                </p>
+                </h3>
                 <p class="skills__text">Без возврата домой, используя ноутбук и все возможности фриланса</p>
               </div>
             </li>
             <li class="skills__item">
               <span class="skills__num">3</span>
               <div class="skills__body">
-                <p class="skills__head">Быть на шаг впереди конкурентов</p>
+                <h3 class="skills__head">Быть на шаг впереди конкурентов</h3>
                 <p class="skills__text">Используя проверенные стратегии развития, общения и работы с клиентами</p>
               </div>
             </li>
@@ -207,19 +205,17 @@
     </main>
     <footer class="footer" id="footer">
       <div class="container d-flex align-items-centr">
-        <div class="logo">
-          <a href="#" title="Школа верстки FSDev">
-            <span class="logo__icon">
-              <i class="fa fa-plug"></i>
-            </span>
-            <p class="logo__text">Моя школа <span>верстки</span></p>
-          </a>
-        </div>
+        <a href="#" class="logo" title="Школа верстки FSDev">
+          <span class="logo__icon">
+            <i class="fa fa-plug"></i>
+          </span>
+          <p class="logo__text">Моя школа <span>верстки</span></p>
+        </a>
         <p class="copy">Все права защищены</p>
-        <div class="phone">
+        <a href="tel:+7(495)56756412" class="phone">
           <i class="fa fa-phone"></i>
-          <a href="tel:+7(495)56756412" class="phone__link">+7 (495) 567-564-12</a>
-        </div>
+          +7 (495) 567-564-12
+        </a>
       </div>
     </footer>
   </body>
